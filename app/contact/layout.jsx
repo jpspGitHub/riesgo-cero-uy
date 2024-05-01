@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Header from "../ui/header";
 import Footer from "../ui/footer";
-import contactImageDesktop from "../../public/images/contact_desktop.png";
-import contactImageMobile from "../../public/images/contact_mobile.png";
+import contactImageDesktop from "../../public/images/contact_desktop.webp";
+import contactImageMobile from "../../public/images/contact_mobile.webp";
 export default function Layout({ children }) {
   return (
     <div id="wrapper">

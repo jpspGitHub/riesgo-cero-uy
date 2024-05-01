@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { data } from "../../lib/data";
-import profilePic from "./../../../public/images/services/default-service_desktop.png";
+import profilePic from "./../../../public/images/services/default-service_desktop.webp";
 
 export function Services() {
   return (

@@ -1,5 +1,5 @@
-import bannerDesktop from "./../../../public/images/banner_desktop.png";
-import favicon from "./../../../public/images/logo.png";
+import bannerDesktop from "./../../../public/images/banner_desktop.webp";
+import favicon from "./../../../public/images/logo.webp";
 import Image from "next/image";
 
 export default function MainBanner() {

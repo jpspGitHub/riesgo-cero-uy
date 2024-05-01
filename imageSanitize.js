@@ -11,15 +11,15 @@ var fn = (folderPath) => {
     .forEach((element) => {
       sharp(`${folderPath}${element}`)
         .resize(300)
-        .png()
-        .toFile(`${folderPath}${path.basename(element, ".jpg")}_mobile.png`)
+        .webp()
+        .toFile(`${folderPath}${path.basename(element, ".jpg")}_mobile.webp`)
         .then((info) => console.log(info))
         .catch((err) => console.error(err));
 
       sharp(`${folderPath}${element}`)
         .resize(900)
-        .png()
-        .toFile(`${folderPath}${path.basename(element, ".jpg")}_desktop.png`)
+        .webp()
+        .toFile(`${folderPath}${path.basename(element, ".jpg")}_desktop.webp`)
         .then((info) => console.log(info))
         .catch((err) => console.error(err));
     });

@@ -5,8 +5,8 @@ import Header from "../ui/header";
 import { data } from "../lib/data";
 import { Contact } from "../ui/contact";
 import Footer from "../ui/footer";
-import defaultServiceImageDesktop from "./../../public/images/services/default-service_desktop.png";
-import defaultServiceImageMobile from "./../../public/images/services/default-service_mobile.png";
+import defaultServiceImageDesktop from "./../../public/images/services/default-service_desktop.webp";
+import defaultServiceImageMobile from "./../../public/images/services/default-service_mobile.webp";
 export default function Layout({ children }) {
   var { id } = useParams();
   var service = data.services.items.find((item) => item.id == id);
