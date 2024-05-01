@@ -8,20 +8,28 @@ export default function Page() {
   var service = data.services.items.find((item) => item.id == id);
   return (
     <>
-      <section id="two" class="spotlights">
+      <section id="two" className="spotlights">
         <section>
-          <a href="generic.html" class="image">
-            <Image src={service.image} width={300} height={320} alt="" />
-          </a>
-          <div class="content">
-            <div class="inner">
-              <header class="major">
+          <div  className="image">
+            <span
+              className="image-credit"
+              dangerouslySetInnerHTML={{ __html: service.creditLink }}
+            ></span>
+            <a href="generic.html">
+              <Image
+                src={service.imageDesktop}
+                width={300}
+                height={320}
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
                 <h3>{service.title}</h3>
               </header>
-              <p>
-                {service.text}
-              </p>
-              
+              <p>{service.text}</p>
             </div>
           </div>
         </section>

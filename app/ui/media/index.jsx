@@ -1,14 +1,17 @@
-"use client";
-import ReactPlayer from "react-player";
-
 export function Media() {
   return (
     <>
       <div id="media">
-        <ReactPlayer
-          controls={true}
-          url="https://www.youtube.com/watch?v=61KV3jRzckM&t=72s"
-        />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/61KV3jRzckM?si=ozgBA2hXtaG3CUyz"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
       </div>
     </>
   );

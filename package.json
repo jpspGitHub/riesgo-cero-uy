@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "imageSanitize": "node imageSanitize.js"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -21,10 +22,11 @@
     "react": "^18",
     "react-dom": "^18",
     "react-fontawesome": "^1.7.1",
-    "react-player": "^2.16.0"
+    "sass": "^1.75.0"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "eslint-config-next": "14.2.1",
+    "sharp": "^0.33.3"
   }
 }

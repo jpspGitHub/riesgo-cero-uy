@@ -1,18 +1,22 @@
 import Image from "next/image";
 import Header from "../ui/header";
 import Footer from "../ui/footer";
-import contactImage from "../../public/images/contact.jpg";
+import contactImageDesktop from "../../public/images/contact_desktop.png";
+import contactImageMobile from "../../public/images/contact_mobile.png";
 export default function Layout({ children }) {
   return (
     <div id="wrapper">
       <Header />
-      <section id="banner" className="style2">
+      <section
+        id="banner"
+        className="style1"
+        style={{
+          backgroundImage: `url(${contactImageDesktop.src})`,
+          width: "100%",
+          height: "100%",
+        }}
+      >
         <div className="inner">
-          <span className="image">
-            <Image src={contactImage} width={10} height={50} alt="" />
-            Foto de <a href="https://unsplash.com/es/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Czerwinski</a> en <a href="https://unsplash.com/es/fotos/telefono-de-disco-negro-y-marron-cerca-de-la-pared-gris--0xCCPIbl3M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-          </span>
           <header className="major">
             <h1>Contacto</h1>
           </header>

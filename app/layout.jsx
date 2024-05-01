@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
-import "./assets/css/main.css";
+import "./assets/scss/main.scss";
+// import "./assets/css/main.css";
 // import { config } from '@fontawesome/fontawesome-svg-core'
 //import '@fontawesome/fontawesome-svg-core/styles.css'
 // config.autoAddCss = false;
