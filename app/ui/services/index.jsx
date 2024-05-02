@@ -11,7 +11,6 @@ export function Services() {
           <header className="major">
             <h2>Nuestros servicios</h2>
           </header>
-
           <div></div>
         </div>
       </section>

@@ -1,10 +1,11 @@
 import { Inter } from "next/font/google";
+import Head from "next/head";
 import "./assets/scss/main.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Riesto Cero Uy",
+  title: "Riesto Cero Uy - Inicio",
   description: "La seguridad que te respalda en cada paso",
 };
 
