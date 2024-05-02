@@ -38,7 +38,7 @@ export function Contact() {
               <div className="contact-method">
                 <span className="icon solid alt fa-envelope"></span>
                 <h3>Email</h3>
-                <a href={`mailto:${data.contact.email}`} target="_blank">{data.contact.email}</a>
+                <a href={`mailto:${data.contact.email}`} target="_blank" aria-label="Enviar mail a Riego Cero Uy">{data.contact.email}</a>
               </div>
             </section>
             <section>

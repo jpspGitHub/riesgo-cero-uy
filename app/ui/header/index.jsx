@@ -7,13 +7,13 @@ export default function Header() {
       <header id="header">
         <ul className="links">
           <li>
-            <a href="/">Inicio</a>
+            <Link href="/" aria-label="Ir a inicio">Inicio</Link>
           </li>
           <li>
-            <a href="/services">Servicios</a>
+            <Link href="/services" aria-label="Ir a servicios">Servicios</Link>
           </li>
           <li>
-            <a href="/contact">Contacto</a>
+            <Link href="/contact" aria-label="Ir a contactos">Contacto</Link>
           </li>
         </ul>
       </header>

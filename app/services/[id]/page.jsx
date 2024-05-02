@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useParams } from "next/navigation";
 import { data } from "../../lib/data";
 
@@ -15,14 +16,14 @@ export default function Page() {
               className="image-credit"
               dangerouslySetInnerHTML={{ __html: service.creditLink }}
             ></span>
-            <a href="generic.html">
+            <Link href="generic.html">
               <Image
                 src={service.imageDesktop}
                 width={300}
                 height={320}
                 alt=""
               />
-            </a>
+            </Link>
           </div>
           <div className="content">
             <div className="inner">

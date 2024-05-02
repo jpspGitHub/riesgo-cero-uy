@@ -2,7 +2,7 @@
 import { useParams } from "next/navigation";
 import { data } from "./../../lib/data";
 import defaultServiceImageDesktop from "./../../../public/images/services/default-service_desktop.webp";
-// import defaultServiceImageMobile from "./../../public/images/services/default-service_mobile.webp";
+import defaultServiceImageMobile from "./../../../public/images/services/default-service_mobile.webp";
 
 export default function ServiceBanner() {
   var { id } = useParams();

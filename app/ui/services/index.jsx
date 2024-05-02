@@ -37,12 +37,12 @@ export function Services() {
                   ></span>
                 <header className="major">
                   <h3>
-                    <Link href={`/services/${item.id}`} className="link">
+                    {/* <Link href={`/services/${item.id}`} className="link"> */}
                       {item.title}
-                    </Link>
+                    {/* </Link> */}
                   </h3>
                 </header>
-                <Link href={`/services/${item.id}`} className="link primary" />
+                <Link href={`/services/${item.id}`} className="link primary" aria-label={`Ver mas sobre ${item.title}`} />
               </article>
             ))}
           </section>
