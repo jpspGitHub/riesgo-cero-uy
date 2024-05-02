@@ -1,9 +1,5 @@
 import { Inter } from "next/font/google";
 import "./assets/scss/main.scss";
-// import "./assets/css/main.css";
-// import { config } from '@fontawesome/fontawesome-svg-core'
-//import '@fontawesome/fontawesome-svg-core/styles.css'
-// config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={inter.className}>{children}</body>
     </html>
   );
