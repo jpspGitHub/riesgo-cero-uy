@@ -9,17 +9,18 @@ export function Contact() {
             <form method="post" action="#">
               <div className="fields">
                 <div className="field half">
-                  <label htmlFor="name">Nombre</label>
-                  <input type="text" name="name" id="name" />
+                  <label htmlFor="full-name">Nombre</label>
+                  <input type="text" name="name" id="full-name" />
                 </div>
                 <div className="field half">
-                  <label htmlFor="email">Correo electrónico</label>
-                  <input type="text" name="email" id="email" />
+                  <label htmlFor="email-address">Correo electrónico</label>
+                  <input type="text" name="email" id="email-address" />
                 </div>
                 <div className="field">
                   <label htmlFor="message">Mensaje</label>
                   <textarea name="message" id="message" rows="6"></textarea>
                 </div>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
               </div>
               <ul className="actions">
                 <li>
@@ -37,7 +38,7 @@ export function Contact() {
               <div className="contact-method">
                 <span className="icon solid alt fa-envelope"></span>
                 <h3>Email</h3>
-                <a href="#">{data.contact.email}</a>
+                <a href={`mailto:${data.contact.email}`} target="_blank">{data.contact.email}</a>
               </div>
             </section>
             <section>
