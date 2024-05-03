@@ -15,8 +15,8 @@ export default function MainBanner() {
     >
       <div className="inner">
         <header className="major logo">
-          <h1>Riesgo Cero Uy</h1>
-          <Image src={favicon} width={100} height={100} alt="Riesgo Cero Uy Logo"  className="logo"/> 
+          <h1>RiesgoCeroUy</h1>
+          <Image src={favicon} width={100} height={100} alt="RiesgoCeroUy Logo"  className="logo"/> 
         </header>
         <div className="content">
           <p>La seguridad que te respalda en cada paso</p>

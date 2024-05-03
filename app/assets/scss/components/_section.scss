@@ -14,16 +14,17 @@ header {
     width: -ms-max-content;
     width: max-content;
     margin-bottom: _size(element-margin);
-    
 
     &.logo {
       display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
       img {
         border-radius: 50%;
         margin: 1em 1em;
       }
     }
-	
+
     > :first-child {
       margin-bottom: 0;
       width: calc(100% + 0.5em);

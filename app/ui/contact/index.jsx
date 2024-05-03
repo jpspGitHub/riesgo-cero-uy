@@ -53,8 +53,8 @@ export function Contact() {
                 <span className="icon solid alt fa-home"></span>
                 <h3>Dirección</h3>
                 <span>
-                  {data.contact.address1}
-                  <br />
+                  {/* {data.contact.address1}
+                  <br /> */}
                   {data.contact.address2}
                   <br />
                   Uruguay

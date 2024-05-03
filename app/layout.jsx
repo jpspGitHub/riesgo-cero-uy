@@ -5,7 +5,7 @@ import "./assets/scss/main.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Riesto Cero Uy - Inicio",
+  title: "RiesgoCeroUy - Inicio",
   description: "La seguridad que te respalda en cada paso",
 };
 

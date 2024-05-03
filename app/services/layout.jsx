@@ -8,7 +8,7 @@ import Footer from "../ui/footer";
 import ServiceBanner from "../ui/services/banner";
 
 export const metadata = {
-  title: "Riesto Cero Uy - Servicios",
+  title: "RiesgoCeroUy - Servicios",
   description: "La seguridad que te respalda en cada paso",
 };
 

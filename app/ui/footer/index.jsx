@@ -56,7 +56,7 @@ export default function Footer() {
             </li>
           </ul>
           <ul className="copyright">
-            <li>&copy; Riesto Cero Uy</li>
+            <li>&copy; RiesgoCeroUy</li>
             <li>
               Developer by: <Link href="mailto=pablo.silva@alchemistssoftworks.com"
                 aria-label="Enviar mail a Alchemists Softworks"

@@ -5,7 +5,7 @@ import contactImageDesktop from "../../public/images/contact_desktop.webp";
 import contactImageMobile from "../../public/images/contact_mobile.webp";
 
 export const metadata = {
-  title: "Riesto Cero Uy - Contacto",
+  title: "RiesgoCeroUy - Contacto",
   description: "La seguridad que te respalda en cada paso"
 };
 export default function Layout({ children }) {
